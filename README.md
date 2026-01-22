@@ -10,12 +10,10 @@
 
 ```
 crack_recon/
-├─ input_samples/        # Raw input scans
 ├─ output_samples/       # Processed outputs from the pipelines
 └─ crack_recon.ipynb     # Main Jupyter notebook with all code
 ```
-
-- **input_samples/** – Contains raw scans of your samples.  
+ 
 - **output_samples/** – Contains processed versions of the samples generated using the pipelines in `crack_recon.ipynb`.  
 - **crack_recon.ipynb** – The entire processing workflow:  
   - Channel-specific pipelines for blue, green, and transmission scans  
@@ -52,19 +50,7 @@ crack_recon/
 
 ---
 
-## Usage
 
-1. Place raw scans in the `input_samples/` folder.  
-2. Open and run `crack_recon.ipynb`.  
-3. Processed outputs will appear in `output_samples/`.
-
----
-
-## Notes
-
-- Fusion should always be done **before thresholding** to retain maximum information.  
-- All pipelines currently operate on numpy arrays (`float32`) internally.  
-- The notebook contains all code, so there are no separate scripts or modules.
 
 ---
 
