@@ -19,6 +19,7 @@ crack_recon/
   - Channel-specific pipelines for blue, green, and transmission scans  
   - Multi-channel fusion  
   - Binary mask generation and morphological cleaning
+* The raw input images are too big for this repo and do not belong to me. 
 
 ---
 
